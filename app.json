@@ -17,10 +17,12 @@
     "env": {
       "API_ID": {
         "description": "api_id part of your Telegram API Key from my.telegram.org/apps",
+        "value": "1281282633",
         "required": true
       },
       "API_HASH": {
         "description": "api_hash part of your Telegram API Key from my.telegram.org/apps",
+        "value": "e6d1f09120e17a4372fe022dde88511b",
         "required": true
       },
       "BOT_TOKEN": {
@@ -33,10 +35,12 @@
       },
       "CHAT": {
         "description": "ID of Channel or Group where the Bot plays Music",
+        "value": "-1001515341564",
         "required": true
       },
       "LOG_GROUP": {
         "description": "ID of the group to send playlist If CHAT is a Group, if channel then leave blank",
+        "value": "-1001735663878",
         "required": false
       },
       "QUALITY": {
@@ -50,6 +54,7 @@
       },
       "ADMINS": {
         "description": "ID of Users who can use Admin commands(for multiple users seperated by space)",
+        "value": "1281282633 2021138895 5138495895",
         "required": true
       },
       "ADMIN_ONLY": {
@@ -67,12 +72,12 @@
       },
       "STARTUP_STREAM": {
         "description": "YouTube live / Direct link to a video / Telegram link to a YouTube playlist.(Read the README for more info.) ",
-        "value": "https://youtu.be/zcrUCvBD16k",
+        "value": "http://media.7starcloud.com:1935/harimedia/mkptv/playlist.m3u8",
         "required": false
       },
       "REPLY_MESSAGE": {
         "description": "A reply message to those who message the USER account in PM. Make it blank if you do not need this feature.",
-        "value": "Hey, Iam a bot to play music, not having time to chat with you.",
+        "value": "Join: https://t.me/HeartBeat_Muzic",
         "required": false
       }
     },
