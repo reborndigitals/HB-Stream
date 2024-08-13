@@ -27,18 +27,18 @@ class Config:
     ADMINS = [int(admin) for admin in (ADMIN).split()] #group admins will be appended to this list.
     API_ID = int(os.environ.get("API_ID", '8045459'))
     API_HASH = os.environ.get("API_HASH", "e6d1f09120e17a4372fe022dde88511b")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")     
-    SESSION = os.environ.get("SESSION_STRING", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "2096983652:AAHoX4BGaMJWoi9xnrvyX2y_eyWbwYknCFw")     
+    SESSION = os.environ.get("SESSION_STRING", "BQB_AAoAtt7L4hAzCi_S7tRo-kierhGIMBMBGSOQ70B7jq2xTtQeuJqIDme0qkCMvdF5n7U4w7oA9EAyZW9n3M_4aZHkFoqygF4518lUDrbiEzISGr5UcLajAqmrjRVXWZSo0Bp4D2fa0pCdwX6K6oiIjpr3cAVPv5wJCsrR42MDvz1vJ8WqH6IWztxaDmZKLMGpI4XJmNYetElSGTyNHP3no0ylx5MHEhLlBaOrUietFDx7etmbOP4NjmfcXuT1tVrb7nYEdpRcJzOFzIV8gVoagDnEmXadcAGD567b69Fvf_gkReiH3P3dWWfrnnD0L91bE9m-HbRaqSrTuFhu1nEXC7UsrgAAAAB8rK97AA")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
+    CHAT = int(os.environ.get("CHAT", "-1001515341564"))
     LOG_GROUP=os.environ.get("LOG_GROUP", "-1001735663878")
 
     #Stream 
-    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://d2q8p4pe5spbak.cloudfront.net/bpk-tv/9XM/9XM.isml/9XM-audio_208482_und=208000-video=2137600.m3u8")
+    STREAM_URL=os.environ.get("STARTUP_STREAM", "https://249553662f3e.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.588204940461.channel.Sx8XPoik8VX2.m3u8")
    
     #Database
-    DATABASE_URI=os.environ.get("DATABASE_URI", None)
+    DATABASE_URI=os.environ.get("DATABASE_URI", "mongodb+srv://zewdatabase:ijoXgdmQ0NCyg9DO@zewgame.urb3i.mongodb.net/ontap?retryWrites=true&w=majority")
     DATABASE_NAME=os.environ.get("DATABASE_NAME", "HB-Stream")
 
 
